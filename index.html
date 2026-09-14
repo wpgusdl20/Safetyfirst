@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GitHub Pages로 만든 간단한 홈페이지" />
+  <title>홈페이지 제목</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top">홈페이지 제목</a>
+      <nav aria-label="주요 메뉴">
+        <a href="#about">소개</a>
+        <a href="#links">자료</a>
+        <a href="#contact">문의</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">WELCOME</p>
+        <h1>원하는 내용을 한눈에 볼 수 있는 홈페이지</h1>
+        <p class="hero-text">
+          이 문장은 홈페이지 소개 문구입니다.
+          index.html 파일에서 원하는 내용으로 바꿔 주세요.
+        </p>
+        <a class="button" href="#links">자료 바로가기</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <p class="section-label">ABOUT</p>
+        <h2>홈페이지 소개</h2>
+        <p class="section-description">
+          학교 자료, 프로젝트 결과물, 안내 페이지, 패들렛 링크 등
+          필요한 자료를 모아서 보여줄 수 있습니다.
+        </p>
+      </div>
+    </section>
+
+    <section id="links" class="section section-muted">
+      <div class="container">
+        <p class="section-label">RESOURCES</p>
+        <h2>자료 바로가기</h2>
+
+        <div class="card-grid">
+          <a class="card" href="https://example.com" target="_blank" rel="noopener noreferrer">
+            <span class="card-number">01</span>
+            <h3>첫 번째 자료</h3>
+            <p>이곳에 자료에 대한 간단한 설명을 입력하세요.</p>
+            <span class="card-link">바로가기 →</span>
+          </a>
+
+          <a class="card" href="https://example.com" target="_blank" rel="noopener noreferrer">
+            <span class="card-number">02</span>
+            <h3>두 번째 자료</h3>
+            <p>이곳에 자료에 대한 간단한 설명을 입력하세요.</p>
+            <span class="card-link">바로가기 →</span>
+          </a>
+
+          <a class="card" href="https://example.com" target="_blank" rel="noopener noreferrer">
+            <span class="card-number">03</span>
+            <h3>세 번째 자료</h3>
+            <p>이곳에 자료에 대한 간단한 설명을 입력하세요.</p>
+            <span class="card-link">바로가기 →</span>
+          </a>
+
+          <a class="card" href="https://example.com" target="_blank" rel="noopener noreferrer">
+            <span class="card-number">04</span>
+            <h3>네 번째 자료</h3>
+            <p>이곳에 자료에 대한 간단한 설명을 입력하세요.</p>
+            <span class="card-link">바로가기 →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-box">
+        <div>
+          <p class="section-label">CONTACT</p>
+          <h2>문의</h2>
+          <p>문의 문구나 담당자 안내를 이곳에 입력하세요.</p>
+        </div>
+        <a class="button button-secondary" href="mailto:example@example.com">이메일 보내기</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> 홈페이지 제목. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
